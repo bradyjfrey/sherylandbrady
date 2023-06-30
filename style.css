@@ -1,0 +1,43 @@
+﻿* {padding: 0;margin: 0;}
+
+body {background: #e2e2e2 url(images/backdrop.png) repeat top center;text-align: center;font: 12px/1.5 georgia,serif;}
+section {margin: 40px auto;display: block;background: white url(images/page.png) no-repeat top center;width: 500px;box-shadow: 0px 3px 5px rgba(0,0,0,.19);-moz-box-shadow: 0px 3px 5px rgba(0,0,0,.19);-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,.19);}
+#rsvp {background: #770007 url(images/page_red.png) repeat top center;box-shadow: 0px 3px 5px rgba(0,0,0,.3);-moz-box-shadow: 0px 3px 5px rgba(0,0,0,.3);-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,.3);}
+footer {text-indent: -9999px;background: white url(images/page.png) no-repeat center bottom;width: 500px;height: 30px;display: block;}
+#rsvp footer {display: none;}
+
+h1 {background: transparent url(images/sherylandbrady.png) no-repeat bottom center;text-indent:-9999px;height: 311px;width: 500px;padding-top: 20px;}
+#rsvp h1 {background: transparent url(images/rsvp.png) no-repeat bottom center;width: 500px;height: 342px;padding-top: 0px;}
+#success h1 {background: transparent url(images/success.png) no-repeat bottom center;width: 500px;height: 236px;padding-top: 60px;}
+#thankyou h1 {background: transparent url(images/thankyou.png) no-repeat bottom center;width: 500px;height: 161px;padding-top: 60px;}
+#success p, #thankyou p {padding: 30px 60px 30px 60px;font-size: 14px;}
+#invite h2 {background: transparent url(images/youreinvited.png) no-repeat bottom center;text-indent:-9999px;width: 500px;height: 12px;padding-top: 70px;}
+h3 {position: relative;left: -65px;bottom: 57px;z-index:999;background: transparent url(images/ribbon2.png) no-repeat center center;text-indent:-9999px;width: 630px;height: 65px;margin: 0 auto;}
+
+#notes {width: 500px;text-align: left;overflow: hidden;margin-top: -27px;padding-left: 80px;}
+#notes li {list-style-type: none;padding: 0 60px 50px 0;float: left;width: 140px;}
+#notes h5 {text-transform: uppercase;font-size: 10px;color: #cacaca;}
+#notes h4 {font-size: 14px;padding-top: 2px;}
+#park {padding-top: 10px;}
+#notes p {}
+#notes p a {color: #910007;font-weight: bold;}
+#notes p a:hover {text-decoration: none;color: #999;}
+#notes em {}
+
+form {padding: 0px 60px 30px 60px;position: relative;bottom: 30px;text-align: left;color: white;font-size: 14px;}
+fieldset {border: none;}
+legend {display: none;}
+label {display: block;padding-bottom: 5px;}
+#namet {padding-top: 20px;}
+#name {padding: 4px;border-radius: 4px;box-shadow: inset 0px 1px 3px rgba(0,0,0,.6);-moz-border-radius: 4px;-moz-box-shadow: inset 0px 1px 3px rgba(0,0,0,.6);-webkit-border-radius: 4px;border: none;-webkit-box-shadow: inset 0px 1px 3px rgba(0,0,0,.6);display: block;width: 260px;}
+#dint {padding-top: 20px;}
+textarea {padding: 4px;border: none;border-radius: 4px;box-shadow: inset 0px 1px 3px rgba(0,0,0,.6);-moz-border-radius: 4px;-moz-box-shadow: inset 0px 1px 3px rgba(0,0,0,.6);-webkit-border-radius: 4px;-webkit-box-shadow: inset 0px 1px 3px rgba(0,0,0,.6);display: block;width: 380px;}
+button {margin-top: 40px;cursor: pointer;border: none;background: white url(images/36px-black.png) repeat-x 0px 0px;padding: 6px 17px 8px;-moz-border-radius: 18px;border-bottom-color: rgba(0, 0, 0, 0.35);box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px;-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px;-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px;-webkit-border-radius: 18px;border-radius: 18px;font-size: 12px;}
+button:hover {background-image: none;background-color: #570006;color: white;}
+#rsvp h5 {text-transform: uppercase;font-size: 12px;padding: 30px 0 10px 0;color: #570006;}
+#rsvp p {padding: 0 0 10px 0;}
+#rsvp h2 {font-weight: bold;font-size: 21px;padding-bottom: 20px;}
+
+#notgoing {display: none;padding-top: 40px;}
+#broke {width: 100%;height: 315px;padding-top: 40px;background: transparent url(images/brokeit.png) no-repeat bottom center;text-indent:-9999px;}
+#sh {font-size: 18px;text-shadow: 0px 1px 1px white;color: #666;position: relative;bottom: 40px;}

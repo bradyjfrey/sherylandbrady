@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="Description" content="The Wedding of Sheryl K. Jang &amp; Brady J. Frey">
+	<meta name="Author" content="Brady J. Frey">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+<title>RSVP for our wedding</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" media="screen,projection" href="style.css">
+<!--[if lte IE 6]><link rel="stylesheet" type="text/css" media="screen,projection" href="style_ie6.css"><![endif]-->
+<link rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px)" href="style_iphone.css">
+    <script src="http://use.typekit.com/qzj3dfb.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <script src="scripts/jquery.js"></script>
+    <script src="scripts/scripts.js"></script>
+	<!--[if gte IE 5]>
+	<script>
+		document.createElement('header');
+		document.createElement('footer');
+		document.createElement('section');
+		document.createElement('aside');
+		document.createElement('nav');
+		document.createElement('article');
+		document.createElement('time');
+	</script><![endif]-->
+</head>
+<body>
+<!--[if lte IE 6]><script src="scripts/ie6/warning.js"></script><script>window.onload=function(){e("scripts/ie6/")}</script><![endif]-->
+    <section id="rsvp">
+        <h1>RSVP for Sheryl and Brady's Wedding</h1>
+
+        <form action="http://sherylandbrady.com/rsvpaction.php" enctype="multipart/form-data" method="post">
+            <h2>You&rsquo;re coming, right?</h2>
+            <fieldset>
+                <legend>Your Info</legend>
+
+                <label for="coming_yes" id="yest"><input type="radio" id="coming_yes" name="coming" value="Yes" checked="checked"> Absolutely!</label>
+                <label for="coming_no" id="not"><input type="radio" id="coming_no" name="coming" value="No"> No. <em>America&rsquo;s Got Talent</em> is on that night &#151; sorry.</label>
+
+                <label for="name" id="namet">Your Name</label>
+                <input type="text" name="name" id="name" value="" size="">
+
+                <div id="going">
+                    <label for="dinnernames" id="dint">Tell us all of the attendees names, and if they&rsquo;d like beef, fish, or pasta for dinner.</label>
+                    <textarea name="dinnernames" id="dinnernames" rows="8" cols="30"></textarea>
+
+                    <h5>Word to the wise</h5>
+                    <p><strong>Forbes Island</strong> is a man-made island. It&rsquo;s large, and anchored, but it&rsquo;s
+                    still not much different than a stationary boat. Dramamine it, if you must.</p>
+
+                    <p>There&rsquo;s a short water taxi ride to &amp; from <strong>Forbes Island</strong>, no longer
+                    than a few minutes at a time. Escape is easy (you can also swim it).</p>
+                </div>
+            </fieldset>
+
+            <div id="notgoing">
+            <p>We&rsquo;re sorry you can't make it, but thank you for responding.</p>
+            </div>
+
+            <p><button type="submit" name="submit" value="submit">Let us know!</button></p>
+        </form>
+
+        <footer><p>San Francisco, CA</p></footer>
+    </section>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4484730-13']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
